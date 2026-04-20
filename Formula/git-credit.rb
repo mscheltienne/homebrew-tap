@@ -1,28 +1,28 @@
 class GitCredit < Formula
   desc "Precise per-author contribution stats that see through squash merges"
   homepage "https://github.com/mscheltienne/git-credit"
-  version "0.1.0"
+  version "0.2.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/mscheltienne/git-credit/releases/download/0.1.0/git-credit-aarch64-apple-darwin.tar.gz"
-      sha256 "1034d351a77cc2422dd102513103300f9b3bef6cbde10220ed453bf0021879c5"
+      url "https://github.com/mscheltienne/git-credit/releases/download/0.2.0/git-credit-aarch64-apple-darwin.tar.gz"
+      sha256 "d61d507581dffbf8c502def4c545ca0a53839d00c45d702da8e7f194fedf324e"
     end
     on_intel do
-      url "https://github.com/mscheltienne/git-credit/releases/download/0.1.0/git-credit-x86_64-apple-darwin.tar.gz"
-      sha256 "788a317732e79735eb16c8508ab9ccf39360286690ffc4446e21043cac33e9df"
+      url "https://github.com/mscheltienne/git-credit/releases/download/0.2.0/git-credit-x86_64-apple-darwin.tar.gz"
+      sha256 "0367941b4bf78f0ca8fdc03b2037132d4f3c3d88746f358be84e1c9bae710536"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/mscheltienne/git-credit/releases/download/0.1.0/git-credit-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "618f0b2c58364d5080ffc8a6def1248111365faa9a2c3124f822ac0b8257d18f"
+      url "https://github.com/mscheltienne/git-credit/releases/download/0.2.0/git-credit-aarch64-unknown-linux-musl.tar.gz"
+      sha256 "d359f2c3a0a2997fdafe3b576a5913eab8cfcbcfd9ea54958d2a1de5921b6aa1"
     end
     on_intel do
-      url "https://github.com/mscheltienne/git-credit/releases/download/0.1.0/git-credit-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "378c9dea9b425c47a3206d2ac9b33fc01d6e0d11988ac8efe9870184e433d8f3"
+      url "https://github.com/mscheltienne/git-credit/releases/download/0.2.0/git-credit-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "33a31887b9d8dda1a912a71939abcef0883ff29eb06dbd910b54e8bdc842d6ac"
     end
   end
 
